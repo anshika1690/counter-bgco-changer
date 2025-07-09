@@ -9,7 +9,7 @@ function Main() {
     }
     function decrementNumber() {
         setCount(count - 1);
-    }
+    } 
     return (
         <>
             <div className="counter">

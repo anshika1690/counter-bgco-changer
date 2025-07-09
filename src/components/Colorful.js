@@ -6,7 +6,7 @@ function Colorful({name}) {
         document.body.style.backgroundColor = color;
     },[color]);
     console.log("render");
-    return (
+    return ( 
         <div className="div">
             <h1 style={{ color: "white" }}>Background Color Changer</h1>
             <div className="but">

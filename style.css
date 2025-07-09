@@ -2,28 +2,31 @@ body{
     margin: 0;
     padding: 0;
     height: 100vh;
-     display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
+    padding: 2rem;
 }
 .div{
     height: 100%;
-   
-}
+    text-align: center;
+} 
 .but button{
-    margin-left: 10px;
-    font-size: 20px;
+    margin-left: 0.5rem;
+    font-size: 1.5rem;
     color: white;
-    border: 2px solid white;
+    border: 0.1rem solid white;
+    margin-top: 0.5rem;
 }
 .counter{
     color: white;
-    border: 2px solid white;
-    padding: 10px;
+    border: 0.2rem solid white;
+    padding: 0.8rem;
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 2rem;
 }
 .counter button{
-    font-size: 20px;
-    margin-left: 10px;
+    font-size: 1.5rem;
+    margin-top: 0.3rem;
+    margin-left: 0.5rem;
 }
